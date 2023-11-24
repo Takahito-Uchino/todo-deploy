@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma db push && next build",
+    "build": "prisma generate && prisma db push && pnpm prisma db seed && next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@prisma/client": "5.4.2",
+    "@prisma/client": "^5.6.0",
     "bootstrap": "5.3.0",
     "date-fns": "^2.30.0",
     "eslint-config-prettier": "^9.0.0",
