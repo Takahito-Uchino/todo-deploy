@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma db push && pnpm prisma db seed && next build",
+    "build": "prisma generate && prisma db push && next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
@@ -40,7 +40,7 @@
     "eslint-plugin-storybook": "^0.6.15",
     "postcss": "^8",
     "prettier-plugin-tailwindcss": "^0.5.6",
-    "prisma": "^5.4.2",
+    "prisma": "^5.6.0",
     "prisma-erd-generator": "^1.11.1",
     "storybook": "^7.4.6",
     "tailwindcss": "^3",
